@@ -42,8 +42,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
           className={cn(
             "min-h-screen bg-background font-sans antialiased",
             fontSans.variable,
-            GeistMono.className,
-            GeistSans.className
+            GeistMono.variable,
+            GeistSans.variable
           )}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
