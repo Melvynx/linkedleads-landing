@@ -1,18 +1,20 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Next.js",
+  name: "LinkedLeads",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "Get infinite leads from your LinkedIn connections!",
   mainNav: [
     {
-      title: "Home",
-      href: "/",
+      title: "Features",
+      href: "#features",
     },
+    {
+      title: "Pricing",
+      href: "#pricing"
+    }
   ],
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
-    docs: "https://ui.shadcn.com",
+    chrome: "/"
   },
 }
