@@ -37,7 +37,7 @@ export default function IndexPage() {
               ))}
             </div>
             <div className="flex flex-col gap-0.5 text-yellow-500 dark:text-yellow-400">
-              <p className="whitespace-nowrap  font-extrabold">
+              <p className="whitespace-nowrap font-extrabold">
                 +500 teachers trust us.
               </p>
               <div className="flex items-center gap-0.5">
@@ -71,14 +71,14 @@ export default function IndexPage() {
         <Card className="h-full flex-1">
           <CardHeader>
             <CardTitle>1. Install the extensions</CardTitle>
-            <CardDescription>Easy install in on click, free.</CardDescription>
+            <CardDescription>Easy install in one click, free.</CardDescription>
           </CardHeader>
         </Card>
         <Card className="h-full flex-1">
           <CardHeader>
             <CardTitle>2. Open LinkedIn</CardTitle>
             <CardDescription>
-              You will se that the extensions will be activated.
+              You will see that the extensions will be activated.
             </CardDescription>
           </CardHeader>
         </Card>
@@ -94,7 +94,7 @@ export default function IndexPage() {
         </Card>
         <Card className="h-full flex-1">
           <CardHeader>
-            <CardTitle>4. See the magic appends</CardTitle>
+            <CardTitle>4. See the magic happen</CardTitle>
             <CardDescription>
               Let the extensions running while you are doing other things. The
               extensions will accept the connection and send a message for you.
@@ -104,7 +104,7 @@ export default function IndexPage() {
       </section>
       <section className="container flex h-full max-w-2xl flex-col items-center gap-4 pb-8 pt-6 text-center md:py-10">
         <Typography variant="h3">
-          Every week, I got +100 connections...
+          Every week, I get +100 connections...
         </Typography>
         <Image
           src="/images/linkedin-friend-count.png"
@@ -125,12 +125,12 @@ export default function IndexPage() {
         </Typography>
 
         <Typography variant="h3">
-          But the connection is a real opportunity to get new leads !
+          But the connection is a real opportunity to get new leads!
         </Typography>
 
         <Typography variant="h3">
           If you send a message with your lead magnet or a question, you will
-          increase your chance to get a new customer !
+          increase your chance to get a new customer!
         </Typography>
         <Image
           src="/images/leads-demo.png"
@@ -144,7 +144,7 @@ export default function IndexPage() {
         </Typography>
 
         <Typography variant="h3">
-          This automations make me save <b>4 hours</b> per week and get new
+          This automation makes me save <b>4 hours</b> per week and get new
           leads that get me <b>+$1000 per month</b>.
         </Typography>
       </section>
@@ -157,23 +157,23 @@ export default function IndexPage() {
         </Typography>
         <Card className="h-full flex-1">
           <CardHeader>
-            <CardTitle>50$ - one-time</CardTitle>
+            <CardTitle>$50 - one-time</CardTitle>
             <CardDescription>
               Get access to the extensions for life and get all the updates.
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col gap-2">
             <Typography className="font-bold underline">
-              Free trial of 1 days
+              Free trial of 1 day
             </Typography>
             <div className="flex flex-col gap-1">
               <p className="inline-flex items-center gap-1">
                 <CheckCircle className="text-green-500" size={20} />
-                <span>Infinite connections requests</span>
+                <span>Infinite connection requests</span>
               </p>
               <p className="inline-flex items-center gap-1">
                 <CheckCircle className="text-green-500" size={20} />
-                <span>All futures update</span>
+                <span>All future updates</span>
               </p>
               <p className="inline-flex items-center gap-1">
                 <CheckCircle className="text-green-500" size={20} />
