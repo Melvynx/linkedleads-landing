@@ -1,13 +1,14 @@
-import { Layout, LayoutContent } from '@/components/page/layout';
-import { Typography } from '@/components/ui/typography';
-import { MDXRemote } from 'next-mdx-remote/rsc';
+import { MDXRemote } from "next-mdx-remote/rsc"
 
-const markdown = `Privacy Markdown`;
+import { Typography } from "@/components/ui/typography"
+import { Layout, LayoutContent } from "@/components/layout"
+
+const markdown = `Privacy Markdown`
 
 export default function page() {
   return (
     <div>
-      <div className="w-full bg-card flex items-center justify-center p-8 lg:p-12">
+      <div className="flex w-full items-center justify-center bg-card p-8 lg:p-12">
         <Typography variant="h1">Privacy</Typography>
       </div>
       <Layout>
@@ -16,5 +17,5 @@ export default function page() {
         </LayoutContent>
       </Layout>
     </div>
-  );
+  )
 }
