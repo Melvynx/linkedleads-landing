@@ -20,14 +20,14 @@ export default function IndexPage() {
     <div>
       <section className="container flex h-full items-center gap-6 pb-8 pt-6 max-lg:flex-col md:py-10">
         <div className="flex flex-1 flex-col items-start gap-4">
-          <h1 className=" text-xl font-extrabold leading-tight tracking-tighter md:text-4xl lg:text-5xl xl:text-6xl ">
+          <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl lg:text-5xl xl:text-6xl ">
             Get{" "}
             <span className="inline-block bg-foreground px-1 py-2 text-background">
               infinite
             </span>{" "}
             leads from your <u>LinkedIn connections</u>!
           </h1>
-          <div className="flex items-center gap-8">
+          <div className="flex items-center gap-4 max-lg:flex-col lg:gap-8">
             <div className="flex">
               {Array.from({ length: 8 }).map((_, i) => (
                 <Avatar key={i} className="-mr-4">
@@ -38,7 +38,7 @@ export default function IndexPage() {
             </div>
             <div className="flex flex-col gap-0.5 text-yellow-500 dark:text-yellow-400">
               <p className="whitespace-nowrap font-extrabold">
-                +500 teachers trust us.
+                +500 LinkedIn user trust us
               </p>
               <div className="flex items-center gap-0.5">
                 {Array.from({ length: 5 }).map((_, i) => (
@@ -59,10 +59,10 @@ export default function IndexPage() {
             }
           />
           <Image
-            src="/images/linked-leads.gif"
+            src="/images/linked-leads2.gif"
             width={500}
             height={300}
-            className="relative h-auto w-full"
+            className="relative h-auto w-full max-w-full"
             alt="presentation-gif"
           />
         </div>
@@ -111,7 +111,7 @@ export default function IndexPage() {
           alt="LinkedIn friend count"
           width={500}
           height={300}
-          className="max-w-xl"
+          className="max-w-full lg:max-w-xl"
         />
         <Typography variant="h3">
           But I don't have the time to accept and send a message to everyone.
@@ -137,7 +137,7 @@ export default function IndexPage() {
           alt="LinkedIn friend count"
           width={500}
           height={300}
-          className="max-w-xl"
+          className="max-w-full lg:max-w-xl"
         />
         <Typography variant="small" className="italic text-muted-foreground">
           My email list is growing every time I run the extensions.

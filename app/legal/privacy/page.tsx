@@ -7,7 +7,7 @@ const markdown = `LinkedLeads (From Codelynx) PRIVACY POLICY
 
 Codelynx (the “Company”) is committed to maintaining robust privacy protections for its users. Our Privacy Policy (“Privacy Policy”) is designed to help you understand how we collect, use and safeguard the information you provide to us and to assist you in making informed decisions when using our Service.
 
-For purposes of this Agreement, “Site” refers to the Company's website, which can be accessed at https://linkedleads.app [or through our mobile application].
+For purposes of this Agreement, “Site” refers to the Company's website, which can be accessed at https://linkedleads.app.
 
 “Service” refers to the Company's services accessed via the Site, in which users can install chrome extensions to automate their LinkedIn connections.
 
