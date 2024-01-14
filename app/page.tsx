@@ -195,7 +195,7 @@ export default function IndexPage() {
           Try for free. Now.
         </Typography>
         <Link
-          href="/"
+          href="https://chromewebstore.google.com/detail/linkedleads/nafbodbndkefmeklhkefodebhpgllegd"
           className={cn(
             buttonVariants({ size: "lg" }),
             "px-8 py-6 text-xl font-bold text-foreground"
