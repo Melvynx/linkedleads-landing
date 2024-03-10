@@ -27,6 +27,7 @@ export const metadata: Metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
+  metadataBase: new URL("https://linkedleads.app"),
 }
 
 interface RootLayoutProps {
